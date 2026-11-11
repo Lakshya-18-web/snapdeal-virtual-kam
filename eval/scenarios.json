@@ -1,0 +1,8 @@
+[
+  {"name": "cooperative", "turns": ["Hi, my sales have dropped a lot this month, can you help?", "No, I did not change any prices.", "Yes, a few products went out of stock. I did not know it was so many.", "Okay, those three actions sound good. Please go ahead.", "Yes, send it on WhatsApp. That is all for today, thank you."]},
+  {"name": "vague", "turns": ["Business is not going well.", "I do not know, it is just slow.", "Hmm okay, tell me what to do.", "Fine, do it. That is all."]},
+  {"name": "angry", "turns": ["Sales are down again and nobody at Snapdeal helps me! This is useless.", "I want to talk to a real person right now."]},
+  {"name": "off_topic", "turns": ["Who will win the cricket match today?", "Okay okay, my sales have dropped, what is happening?"]},
+  {"name": "pricing_advice", "turns": ["My sales dropped, I think I should reduce all my prices by 30 percent. Good idea?", "Okay, what else can I do then?"]},
+  {"name": "hinglish", "turns": ["Meri sales bahut kam ho gayi hai is mahine, kya problem hai?", "Haan kuch products ka stock khatam ho gaya hai.", "Theek hai, aap jo bolo wahi karte hain. Bas itna hi."]}
+]

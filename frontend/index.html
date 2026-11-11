@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Snapdeal Virtual KAM</title>
+<link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<header>
+  <div class="brand">Snapdeal <span>Virtual KAM</span></div>
+  <div id="status" class="status idle">Idle</div>
+</header>
+
+<main>
+  <section class="call">
+    <div class="orb" id="orb"></div>
+    <button id="callBtn" class="primary">Start call</button>
+    <button id="micBtn" class="secondary" disabled>Hold to talk</button>
+    <p class="hint" id="hint">Use Chrome with headphones. Allow the microphone when asked.</p>
+    <form id="typeForm">
+      <input id="typeInput" placeholder="Or type here if the mic is not working" autocomplete="off">
+      <button type="submit">Send</button>
+    </form>
+    <div id="transcript" class="transcript"></div>
+  </section>
+
+  <aside>
+    <div class="card" id="sellerCard">
+      <h3>Seller</h3>
+      <p class="muted">Start a call to load the seller.</p>
+    </div>
+    <div class="card">
+      <h3>Actions taken by the KAM</h3>
+      <ul id="actions"><li class="muted">Nothing yet.</li></ul>
+    </div>
+    <div class="card" id="summaryCard" hidden>
+      <h3>Call summary</h3>
+      <div id="summary"></div>
+    </div>
+  </aside>
+</main>
+
+<script src="/static/voice_pipeline.js"></script>
+<script src="/static/app.js"></script>
+</body>
+</html>

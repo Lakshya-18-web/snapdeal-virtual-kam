@@ -1,0 +1,53 @@
+{
+  "seller_id": "SD-48213",
+  "seller_name": "Ramesh Kumar",
+  "business_name": "Kumar Home Essentials",
+  "category": "Home and Kitchen",
+  "city": "Jaipur",
+  "metrics": {
+    "last_month": {
+      "sales": 200000,
+      "orders": 400,
+      "cancellation_rate": 8,
+      "avg_selling_price": 500,
+      "out_of_stock_products": 5
+    },
+    "this_month": {
+      "sales": 135000,
+      "orders": 270,
+      "cancellation_rate": 14,
+      "avg_selling_price": 500,
+      "out_of_stock_products": 18
+    }
+  },
+  "assumptions": {
+    "active_products": 60,
+    "sales_equals_orders_times_price": true,
+    "recovery_rate_after_restock": 0.6,
+    "cancellation_reasons_this_month": {
+      "stock_unavailable": 55,
+      "dispatch_delay": 30,
+      "buyer_request": 15
+    },
+    "out_of_stock_products": [
+      {"name": "Steel Lunch Box Set", "last_month_orders": 42, "days_out_of_stock": 9, "restock_lead_days": 4, "newly_out_of_stock": true},
+      {"name": "Non-stick Tawa 28cm", "last_month_orders": 31, "days_out_of_stock": 12, "restock_lead_days": 5, "newly_out_of_stock": true},
+      {"name": "Pressure Cooker 3L", "last_month_orders": 26, "days_out_of_stock": 7, "restock_lead_days": 6, "newly_out_of_stock": true},
+      {"name": "Water Bottle 1L Pack of 2", "last_month_orders": 21, "days_out_of_stock": 10, "restock_lead_days": 3, "newly_out_of_stock": true},
+      {"name": "Kitchen Knife Set", "last_month_orders": 16, "days_out_of_stock": 14, "restock_lead_days": 5, "newly_out_of_stock": true},
+      {"name": "Glass Storage Jars 6 pc", "last_month_orders": 12, "days_out_of_stock": 8, "restock_lead_days": 4, "newly_out_of_stock": true},
+      {"name": "Cotton Bedsheet Double", "last_month_orders": 10, "days_out_of_stock": 11, "restock_lead_days": 7, "newly_out_of_stock": true},
+      {"name": "LED Bulb 9W Pack of 4", "last_month_orders": 8, "days_out_of_stock": 6, "restock_lead_days": 3, "newly_out_of_stock": true},
+      {"name": "Mixer Grinder Jar Set", "last_month_orders": 7, "days_out_of_stock": 13, "restock_lead_days": 6, "newly_out_of_stock": true},
+      {"name": "Idli Maker 4 Plate", "last_month_orders": 5, "days_out_of_stock": 5, "restock_lead_days": 4, "newly_out_of_stock": true},
+      {"name": "Casserole 2.5L", "last_month_orders": 5, "days_out_of_stock": 9, "restock_lead_days": 5, "newly_out_of_stock": true},
+      {"name": "Microfibre Cleaning Cloth 10 pc", "last_month_orders": 4, "days_out_of_stock": 4, "restock_lead_days": 2, "newly_out_of_stock": true},
+      {"name": "Spice Rack 12 Jar", "last_month_orders": 3, "days_out_of_stock": 7, "restock_lead_days": 4, "newly_out_of_stock": true},
+      {"name": "Wooden Chopping Board", "last_month_orders": 9, "days_out_of_stock": 30, "restock_lead_days": 5, "newly_out_of_stock": false},
+      {"name": "Frying Pan 24cm", "last_month_orders": 7, "days_out_of_stock": 30, "restock_lead_days": 5, "newly_out_of_stock": false},
+      {"name": "Dinner Set 18 pc", "last_month_orders": 6, "days_out_of_stock": 30, "restock_lead_days": 8, "newly_out_of_stock": false},
+      {"name": "Cotton Towel Set of 3", "last_month_orders": 5, "days_out_of_stock": 30, "restock_lead_days": 6, "newly_out_of_stock": false},
+      {"name": "Plastic Container Set", "last_month_orders": 4, "days_out_of_stock": 30, "restock_lead_days": 3, "newly_out_of_stock": false}
+    ]
+  }
+}
